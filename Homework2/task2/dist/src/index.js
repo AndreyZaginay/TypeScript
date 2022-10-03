@@ -1,0 +1,14 @@
+import { Bird } from "./bird";
+import { Cat } from "./cat";
+import { Fish } from "./fish";
+var cat = new Cat('Cat', false, true);
+cat.showInfo();
+cat.makeSound();
+cat.move();
+var bird = new Bird('Bird', true, true);
+bird.showInfo();
+bird.makeSound();
+bird.move();
+var fish = new Fish('fish', false, true);
+fish.showInfo();
+fish.move();

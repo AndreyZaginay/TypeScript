@@ -1,0 +1,15 @@
+import { BMW } from "./bmw";
+import { Mercedes } from "./mercedes";
+import { Porsche } from "./porsche";
+var x5 = new BMW('x5', 120, 5, 75000);
+var M2 = new BMW('M2', 280, 5, 100000);
+x5.getInfo();
+M2.getInfo();
+var AMG_SClass = new Mercedes('AMG S-Class', 250, 4, 140721.67);
+var AMG_G_63 = new Mercedes('AMG G 63', 210, 5, 160000);
+AMG_SClass.getInfo();
+AMG_G_63.getInfo();
+var Porsche911 = new Porsche('Porsche911', 330, 2, 131341);
+var Taycan = new Porsche('Taycan', 260, 4, 82510);
+Porsche911.getInfo();
+Taycan.getInfo();
